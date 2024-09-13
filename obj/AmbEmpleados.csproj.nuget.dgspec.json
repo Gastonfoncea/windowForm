@@ -1,36 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gfoncea\\source\\repos\\AmbEmpleados\\AmbEmpleados\\AmbEmpleados.csproj": {}
+    "C:\\Users\\Gazzo\\Desktop\\026\\DEVELOPER\\C#\\Test Coni\\windowForm\\AmbEmpleados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gfoncea\\source\\repos\\AmbEmpleados\\AmbEmpleados\\AmbEmpleados.csproj": {
+    "C:\\Users\\Gazzo\\Desktop\\026\\DEVELOPER\\C#\\Test Coni\\windowForm\\AmbEmpleados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gfoncea\\source\\repos\\AmbEmpleados\\AmbEmpleados\\AmbEmpleados.csproj",
+        "projectUniqueName": "C:\\Users\\Gazzo\\Desktop\\026\\DEVELOPER\\C#\\Test Coni\\windowForm\\AmbEmpleados.csproj",
         "projectName": "AmbEmpleados",
-        "projectPath": "C:\\Users\\gfoncea\\source\\repos\\AmbEmpleados\\AmbEmpleados\\AmbEmpleados.csproj",
-        "packagesPath": "C:\\Users\\gfoncea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gfoncea\\source\\repos\\AmbEmpleados\\AmbEmpleados\\obj\\",
+        "projectPath": "C:\\Users\\Gazzo\\Desktop\\026\\DEVELOPER\\C#\\Test Coni\\windowForm\\AmbEmpleados.csproj",
+        "packagesPath": "C:\\Users\\Gazzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gazzo\\Desktop\\026\\DEVELOPER\\C#\\Test Coni\\windowForm\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gfoncea\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Gazzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -73,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
