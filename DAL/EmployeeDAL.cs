@@ -19,11 +19,19 @@ namespace AmbEmpleados.DAL
             using (SqlConnection connection = DataBaseManager.getConection())
             {
                 
-                string query = "INSERT INTO Employees (name,lastName,leg,section,ofice) VALUES ('"+employee.name+ "' , '"+employee.lastName+ "' , '"+employee.leg+ "', '"+employee.section+ "' , '"+employee.ofice+"')";
-                SqlCommand command = new SqlCommand(query,connection);
+               // string query = "INSERT INTO Employees (name,lastName,leg,section,ofice) VALUES ('"+employee.name+ "' , '"+employee.lastName+ "' , '"+employee.leg+ "', '"+employee.section+ "' , '"+employee.ofice+"')";
+                string query2 = "INSERT INTO Employees name = @name, lastname = @lastName, leg = @leg, section = @section,ofice = @ofice";
+               using (SqlCommand command = new SqlCommand(query2, connection))
+                {
+                    command.Parameters.AddWithValue("@name", employee.name);
+                    command.Parameters.AddWithValue("@lasName", employee.lastName);
+                    command.Parameters.AddWithValue("@leg", employee.leg);
+                    command.Parameters.AddWithValue("@section", employee.section);
+                    command.Parameters.AddWithValue("@ofice",employee.ofice);
 
-                retorna = command.ExecuteNonQuery();
+                    retorna = command.ExecuteNonQuery();
 
+                };
             }
             return retorna;
         }
